@@ -131,15 +131,12 @@ a {
 
 /* hero */
 .page-hero {
-    display: block;
-    background-color: #2e2f42;
+        background-color: #2e2f42;
     margin-bottom: 120px;
-}
-
-.hero-conteiner {
     padding-top: 188px;
     padding-bottom: 188px;
 }
+
 
 .hero-title {
     font-weight: 700;
@@ -148,7 +145,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
 
@@ -170,6 +167,9 @@ a {
     border-radius: 4px;
     padding: 16px 32px;
     min-width: 169px;
+    height: 56px;
+    border: none;
+    display: block;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: auto;
@@ -190,6 +190,7 @@ a {
 .page-section-one {
     margin-top: 0;
     margin-bottom: 120px;
+    padding: 120px 0;
 }
 
 .section-one-list {
@@ -227,6 +228,7 @@ a {
     background-color: #F4F4FD;
     margin-top: 0;
     margin-bottom: 120px;
+    padding: 120px 0;
 }
 
 .section-two-name {
@@ -262,6 +264,7 @@ a {
     margin-bottom: 32px;
     margin-left: 16px;
     margin-right: 16px;
+    padding: 32px 0;
 }
 
 
@@ -292,6 +295,7 @@ a {
     background-color: #F4F4FD;
     margin-top: 0;
     margin-bottom: 120px
+    padding: 120px 0;
 }
 
 .section-three-name {
@@ -322,7 +326,8 @@ a {
 
 .section-three-container {
     margin: 0;
-    padding-left: 16px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 
 .section-three-title {
@@ -347,9 +352,11 @@ a {
 /* footer */
 .page-footer {
     background-color: #2e2f42;
+    padding: 100px 0
 }
 
 .footer-logo {
+    display: inline-block; 
     display: flex;
     align-items: center;
     justify-content: flex-start;
