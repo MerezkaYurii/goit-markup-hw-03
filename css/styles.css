@@ -137,7 +137,6 @@ a {
 /* hero */
 .page-hero {
     background-color: #2e2f42;
-    margin-bottom: 120px;
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -194,7 +193,6 @@ a {
 /*   section 1 */
 .page-section-one {
     margin-top: 0;
-    margin-bottom: 120px;
     padding: 120px 0;
 }
 
@@ -232,7 +230,6 @@ a {
 .page-section-two {
     background-color: #F4F4FD;
     margin-top: 0;
-    margin-bottom: 120px;
     padding: 120px 0;
 }
 
@@ -244,9 +241,9 @@ a {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    padding-top: 120px;
     margin-bottom: 72px;
     margin-top: 0;
+
 }
 
 .section-two-list {
@@ -265,10 +262,6 @@ a {
 
 
 .section-two-container {
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-left: 16px;
-    margin-right: 16px;
     padding: 32px 0;
 }
 
@@ -297,9 +290,7 @@ a {
 
 /* section 3  */
 .page-section-three {
-    background-color: #F4F4FD;
-    margin-top: 0;
-    margin-bottom: 120px;
+    background-color: #fff;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -312,7 +303,6 @@ a {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
-    padding-top: 0;
     margin-bottom: 72px;
     margin-top: 0;
 }
@@ -343,9 +333,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 32px;
     margin-bottom: 8px;
-
 }
 
 .section-three-text {
@@ -353,7 +341,6 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin: 0;
-    padding-bottom: 32px;
 }
 
 /* footer */
@@ -363,14 +350,8 @@ a {
 }
 
 .footer-logo {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
     display: inline-block;
-    padding-top: 100px;
     margin-bottom: 16px;
-
 }
 
 .footer-logo .logo-part {
@@ -384,5 +365,4 @@ a {
     color: #f4f4fd;
     width: 284px;
     margin: 0;
-    padding-bottom: 100px;
 }
